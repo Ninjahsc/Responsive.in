@@ -1,0 +1,43 @@
+﻿@media screen and (max-width:1000px) {
+    .main {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .left {
+        width: 69.38775510204082%;
+    }
+
+    .right {
+        width: 26.53061224489796%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .left, .right {
+        width: 100%;
+    }
+
+    .left {
+        margin-bottom: 30px;
+    }
+
+    .search {
+        top: -70px;
+    }
+
+        .search input {
+            width: 70px;
+        }
+
+            .search input:focus {
+                width: 170px;
+            }
+}
+
+@media screen and (max-width:580px) {
+    .menu ul li a {
+        padding: 10px;
+    }
+}
